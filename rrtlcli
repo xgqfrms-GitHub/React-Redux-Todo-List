@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+
+const colors = require('colors');
+const fetch = require('node-fetch');
+
+console.log('React-Redux-Todo-List CLI', process.argv[0], process.argv[1], process.argv[2]);
+
+/*
+    
+Node CLI
+Node CLI H:\Program Files\nodejs\node.exe
+Node CLI C:\Users\xray\AppData\Roaming\npm\node_modules\react-redux-todo-list-cli\rrtlcli
+Node CLI undefined
+
+*/
