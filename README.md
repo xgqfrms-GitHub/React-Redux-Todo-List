@@ -7,8 +7,8 @@
 2. - [x] 选择一种熟悉的状态和数据流管理方案进行数据管理（如，`redux` / mobx / dva / vuex / rx.js 等）
 
 ## 加分项：
-- [x] 结合 travis 和 github pages 实现 master 分支的持续集成及持续部署
-- [ ] 具备丰富的交互细节及过渡动画
+- [x] 结合 `travis` 和 `github pages` 实现 master 分支的*持续集成*及*持续部署*
+- [x 具备丰富的交互细节及过渡动画
 
 
 ## run
