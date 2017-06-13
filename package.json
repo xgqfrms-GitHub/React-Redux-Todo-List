@@ -1,16 +1,21 @@
 {
-    "name": "react-redux-todo-list",
-    "version": "1.1.1",
-    "private": true,
-    "bin": {
-        "rrtl": "rrtlcli"
-    },
-    "scripts": {
-        "rrtl": "node rrtlcli",
-        "start": "node rrtlcli"
-    },
-    "dependencies": {
-        "colors": "^1.1.2",
-        "node-fetch": "^1.7.1"
-    }
+  "name": "todolist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }

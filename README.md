@@ -1,43 +1,101 @@
-# React-Redux-Todo-List
+# redux & react & yarn
 
-> 二、请开发一个 Todo Web 应用
-
-## 必选项：
-1. - [x] 选择 `React` / Vue / Angular 框架之一进行辅助开发
-2. - [x] 选择一种熟悉的状态和数据流管理方案进行数据管理（如，`redux` / mobx / dva / vuex / rx.js 等）
-
-## 加分项：
-- [x] 结合 `travis` 和 `github pages` 实现 master 分支的*持续集成*及*持续部署*
-- [x 具备丰富的交互细节及过渡动画
-
-
-## run
 
 ```sh
     
-$ npm i
-$ npm link
+$ npm start
+$ npm test
 
-# cli
+$ npm run build
+$ npm run eject
 
-$ rrtl 
-$ npm run rrtl
+``` 
+
+
+# `prop-types`
+
+
+```js
+import React, { Component } from 'react';
+
+
+import React from 'react';
+
+
+import PropTypes from 'prop-types';
+
 ```
 
 
-## demos
+# static server
 
 ```sh
-    
-//todo
+
+$ yarn run build
+
+$ yarn global add serve
+
+$ serve -s build
+
+
+```
+
+> browser-sync
+
+```js
+
+
 ```
 
 
 
 
-## travis-ci
 
-https://travis-ci.org/xgqfrms-GitHub/React-Redux-Todo-List/builds
+
+
+# docs & bugs
+
+
+https://github.com/reactjs/redux/tree/gh-pages/docs
+
+https://github.com/reactjs/redux/tree/gh-pages/docs/basics
+
+
+https://github.com/reactjs/redux/blob/gh-pages/docs/basics/ExampleTodoList.html
+
+
+https://github.com/reactjs/redux/tree/gh-pages/examples
+
+
+https://github.com/reactjs/redux/tree/gh-pages/examples/todomvc
+
+
+
+https://github.com/reactjs/redux/tree/gh-pages/examples/todos
+
+
+
+> https://github.com/reactjs/redux/blob/gh-pages/docs/basics/ExampleTodoList.md
+
+
+
+
+# bugs
+
+https://github.com/reactjs/redux/issues/2451
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
